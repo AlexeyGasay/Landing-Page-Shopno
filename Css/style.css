@@ -1,0 +1,855 @@
+/* - - - - Шрифты - - - - */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/*- - - - Начало Общих стили - - - - */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.title-h2 {
+    text-align: center;
+    color: #323333;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Montserrat' ,sans-serif;
+    
+}
+
+
+.title-p {
+    text-align: center;
+    color: #848585;
+    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+/* - - - - Конец Общих стилей - - - - */
+
+
+
+/* - - - - Начало Header - - - - */
+
+header {
+    background-color: #eff0f2;
+    
+}
+.logo {
+    outline: none;
+    margin-top: 64px;
+}
+
+
+
+/* - - - - Начало Main-menu - - - - */
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu {
+    display: flex;
+    margin-top: 74px;
+    margin-right: 180px
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #505050;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 15px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border-radius: 10px;
+}
+
+.main-menu li {
+    transition: 1.2s;
+}
+
+.main-menu li:hover, .main-menu a:focus{
+    transition: 1.2s;
+    transition-timing-function: ease-in-out;
+    background-color: #f48e99;
+    border-radius: 15px;
+}
+
+
+/* - - - - Конец Main-menu - - - - */
+
+
+
+
+/* - - - - Начало Banner - - - - */
+
+.banner {
+    text-align: center;
+    padding-bottom: 190px;
+    
+}
+
+.say-hello {
+    margin-top: 205px;
+    margin-bottom: 150px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #505050;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    
+}
+
+.say-hello span {
+    background-color: #b2f2ee;
+    padding: 3px;
+    
+}
+
+.say-hello-link {
+    padding: 18px 47px;
+    text-align: center;
+    color: #606061;
+    border: 2px solid #777879;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius: 1px;
+    transition: 2s;
+    outline: none;
+    
+    
+}
+
+.say-hello-link:hover, .say-hello-link:focus {
+    transition: 2s;
+    background-color: #b2f2ee;
+}
+
+/* - - - - Конец Banner - - - - */
+
+/*- - - - Конец Header - - - - */
+
+
+
+
+
+
+/* - - - - Начало Main - - - - */
+
+/* - - - - Начало <About Us> - - - - */
+
+.ab-us {
+    background-color: #f8fafa;
+    margin-top: 130px;
+}
+
+
+.ab-us-info {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ab-us-info-col1, .ab-us-info-col2 {
+    width: 475px;
+    
+}
+
+.ab-us-info-col2 h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #646565;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Merriweather', sans-serif;
+    
+}
+
+.ab-us-info-col2 p {
+    color: #646565;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+}
+
+
+/* - - - - Конец <About Us> - - - - */
+
+
+
+
+
+
+
+/* - - - - Начало Featured Works - - - - */
+
+.ft-wk {
+    margin-top: 290px;
+}
+
+.ft-wk-row-1 {
+    margin-top: 120px;
+}
+
+.ft-wk img {
+    margin-bottom: 13px;
+}
+
+.ft-wk-row-1, .ft-wk-row-2  {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* - - - - Конец Featured Works - - - - */
+
+
+
+
+
+
+
+
+/* - - - - Начало Our Services - - - - */
+
+/* - - - - Общие стили для Our Service - - - - */
+.our-s {
+    margin-top: 240px;
+}
+
+.services {
+    margin: 0 10px;
+    margin-top: 124px;
+    font-family: 'Raleway', sans-serif;
+    color: #f9f9f9;
+    line-height: 22px;
+}
+
+.srv-block-h4 {
+    padding-top: 100px;
+    padding-left: 60px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+
+.srv-block-p {
+    font-size: 16px;
+    padding-left: 50px;
+    max-width: 90%;
+
+}
+
+
+
+/* - - - - Стили анимации для Our Services - - - - */
+
+.srv-block-p:hover .srv-hiiden{
+    transition-timing-function: ease-in-out;
+    transform: translateY(2px);
+    visibility: visible;
+}
+
+.srv-block-p:hover .srv-know-more {
+    color: #b1f0ec;
+    transition-timing-function: ease-in-out;
+    transform: translate(0, 130px);
+
+}
+
+
+
+.srv-hiiden {
+    display: block;
+    width: 400px;
+    height: auto;
+    visibility: hidden;
+    position: absolute;
+    transition: 2s;
+}
+
+/* - - - - Начало стилей для ссылки Know More - - - - */
+
+.srv-know-more {
+    color: #fff;
+    display: block;
+    transition: 3s;
+    margin-top: 5px;
+    height: 25px;
+    padding-top: 15px;
+    outline: none;
+}
+
+.srv-know-more:focus {
+    color: #fff;
+    background-color: #f6bed7;
+    border-radius: 15px;
+    width: auto;
+}
+
+.srv-know-more:hover .pointer {
+    transform: scale(2);
+    transform: translate(35px, 0);
+}
+
+.pointer {
+    transition: 1.5s;
+
+}
+
+/* - - - - Конец стилей для ссылки Know More - - - - */
+
+/* - - - - Конец Стилей анимации для текста Our Services - - - - */
+
+
+
+
+
+/* - - - - Общие стили для Row - - - - */
+
+.srv-row-1, .srv-row-2, .srv-row-3 {
+    margin-top: 10px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+/* - - - - Конец Общих стили для Row - - - - */
+
+
+
+
+
+
+/* - - - - Начало Row-1 - - - - */
+
+/* - - - - Начало Block-1 | Block-2 - - - - */
+.srv-row-1-block-1 {
+    width: 652px;
+    height: 422px;
+    background-image: url(../img/tea-longer.jpg);
+    background-repeat:  no-repeat;    
+    
+}
+
+.srv-row-1-block-2 {
+    width: 474px;
+    height: 422px;
+    background-image: url(../img/paper.jpg);
+    background-repeat: no-repeat;
+    
+}
+/* - - - - Конец Block-1 | Block-2 - - - - */
+
+/* - - - - Конец Row-1 - - - - */
+
+
+
+
+
+/* - - - - Начало Row-2 - - - - */
+
+/* - - - - Начало Block-3 | Block-4 - - - - */
+.srv-row-2-block-3 {
+    width: 652px;
+    height: 371px;
+    background-image: url(../img/netbuck.jpg);
+    background-repeat: no-repeat;
+}
+
+.srv-row-2-block-4 {
+    width: 474px;
+    height: 371px;
+    background-image: url(../img/chair2.jpg);
+    background-repeat: no-repeat;
+    
+}
+/* - - - - Конец Block-3 | Block-4 - - - - */
+
+/* - - - - Конец Row-2 - - - - */
+
+
+
+
+
+/* - - - - Начало Row-3 - - - - */
+
+/* - - - - Начало Block-5 | Block-6 - - - - */
+
+.srv-row-3-block-5 {
+    width: 474px;
+    height: 371px;
+    background-image: url(../img/bottle2.jpg);
+    background-repeat: no-repeat;
+}
+
+.srv-row-3-block-6 {
+    width: 652px;
+    height: 371px;
+    background-image: url(../img/cup.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+/* - - - - Конец Row-3 - - - - */
+
+/* - - - - Конец Block-5 | Block-6 - - - - */
+
+/* - - - - Конец Our Services - - - - */
+
+
+
+
+
+
+/* - - - - Начало Small Team - - - - */
+
+.small-team {
+    margin-top: 247px;
+}
+
+
+/* - - - - Начало Общих стили для Small Team - - - - */
+
+.small-team-box-1, .small-team-box-2, .small-team-box-3,
+.small-team-box-4, .small-team-box-5, .small-team-box-6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 370px;
+    height: 440px;
+}
+
+.team-info {
+    background-color: #70f6eb;
+    width: 335px;
+    height: 241px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', sans-serif;
+    
+}
+
+
+.team-info-h4 {
+    padding: 40px 0 0 40px;
+    color: #2c3938;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.team-info-p {
+    padding: 28px 0 0 40px;
+    color: #225450;
+    font-weight: 500;
+    
+}
+
+.team-info-soc {
+    margin: 10px 0 0 28px;
+    display: flex;
+    justify-content: flex-start
+}
+
+.team-info-soc li{
+    padding: 0 7px; 
+}
+
+.tean-info-prof {
+    color: #767978;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* - - - - Начало стилей для анимации Team-Info - - - - */
+
+.team-info {
+    transition: 2.2s;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.team-info-hidden:hover .team-info{
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+/* - - - - Конец стилей для анимации Team-Info - - - - */
+
+/* - - - - Конец Общих стили для Small Team - - - - */
+
+
+
+
+/* - - - - Начало Row-1 <Small Team> - - - - */
+
+.small-team-row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 123px;
+}
+
+.small-team-box-1 {
+    background-image: url(../img/team-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.small-team-box-2 {
+    background-image: url(../img/team-2.jpg);
+    background-repeat: no-repeat;
+}
+
+.small-team-box-3 {
+    background-image: url(../img/team-3.jpg);
+    background-repeat: no-repeat;
+}
+
+/* - - - - Конец Row-1 <Small Team> - - - - */
+
+
+
+
+
+/* - - - - Начало Row-2 <Small Team> - - - - */
+
+.small-team-row-2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-team-box-4 {
+    background-image: url(../img/team-4.jpg);
+    background-repeat: no-repeat;
+}
+
+.small-team-box-5 {
+    background-image: url(../img/team-5.jpg);
+    background-repeat: no-repeat;
+}
+
+.small-team-box-6 {
+    background-image: url(../img/team-6.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/* - - - - Конец Row-2 <Small Team> - - - - */
+
+/* - - - - Конец Small Team - - - - */
+
+
+
+
+
+/* - - - - Начало What They Says <comments> - - - - */
+
+
+.comments {
+    margin-top: 240px;
+
+}
+
+
+.slider {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around
+}
+
+.photo {
+    width: 390px;
+    height: 360px;
+}
+
+.commentary-photo {
+    width: 390px;
+    height: 360px;
+    position: absolute;
+    
+    
+}
+
+
+.commentary {
+    margin-left: 80px;
+    line-height: 25px;
+    width: 665px;
+    height: 360px;
+    text-align: center;
+    color: #696a6b;
+    background-color: #eaebed;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.commentary-h4 {
+    margin: 100px 0 30px 0;
+    color: #2c3938;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.commentary-prof {
+    color: #767978;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* - - - - Конец What They Says <comments> - - - - */
+
+/* - - - - Конец Main - - - - */
+
+
+
+
+
+
+/* - - - - Начало Footer - - - - */
+
+footer {
+    background-image: url(../img/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
+
+
+/* - - - - Начало Contact Us - - - - */
+
+.contact-us {
+    margin-top: 240px;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/* - - - - Начало Send Mess <Contact Us>  - - - - */
+
+.send-mess {
+    width: 615px;
+    height: 460px;
+    background-color: rgba(72, 88, 98, 0.7);
+}
+
+
+.send-mess-form {
+    padding-top: 40px;
+}
+
+
+.send-mess input{
+    display: block;
+    margin: 10px 0 20px 30px;
+    width: 80%;
+    height: 20px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #cee7f3;
+    background: none;
+}
+
+.send-mess input[type=text], textarea:hover{
+    cursor: cell;
+}
+
+.send-mess label {
+    margin-left: 30px;
+    color: #cee7f3;
+    
+}
+
+
+#massage {
+    width: 80%;
+    height: 110px;
+    margin-left: 30px;
+    color: #fff;
+    display: block;
+    background: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #cee7f3;
+    font-size: 15px;
+
+}
+
+
+#btn-send-m {    
+    color: #2e6b66;
+    width: 244px;
+    height: 53px;
+    padding: 20px 38px;
+    background-color: #6eeee4;
+    border-radius: 2px;
+    transition: 2.5s;
+    border: none;
+    outline: none;
+}
+
+#btn-send-m:hover, #btn-send-m:focus {
+    color: #fff;
+    background-color: #262b2e;
+}
+
+
+/* - - - - Конец Send Mess <Contact Us> - - - - */
+
+
+
+
+/* - - - - Начало Contact Info <Contact Us> - - - - */
+
+.contact-info {
+    width: 500px;
+    height: 460px;
+    background-color: rgba(72, 88, 98, 0.7);
+    
+}
+
+.contacts-list {
+    margin: 35px 0 0 30px;
+    color: #fff;
+    line-height: 23px;
+}
+
+.contact-info-map {
+    z-index: 1;
+    margin: 25px 23px 0 23px;
+    position: absolute;
+    transition: 1.5s;
+}
+
+.contact-info-map:hover{
+    transform: scale(1.1);
+}
+
+/* - - - - Конец Contact Info <Contact Us> - - - - */
+
+
+
+
+/* - - - - Начало Follow Us - - - - */
+
+.follow-us {
+    margin-top: 120px;
+    height: 310px;
+    background-color: #262b2e;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.content-follow-us {
+    color: #dfe0e0;
+}
+
+.follow-us-h2 {
+    padding-top: 95px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.follow-us-society {
+    margin: 20px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.follow-us-society li {
+    padding: 0 12px;
+    transition: 1.5s;
+}
+
+
+.follow-us-society li:hover {
+    border-radius: 5px 15px 10px;
+    background-color: #fff
+}
+
+.follow-us-society a:focus {
+    outline-color: #fff;
+}
+
+/* - - - - Конец Follow Us - - - - */
+
+/* - - - - Конец Footer - - - - */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
